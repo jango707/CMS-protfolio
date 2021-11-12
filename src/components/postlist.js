@@ -3,8 +3,6 @@ import { Link }  from "react-router-dom"
 import Markdown from "react-markdown"
 import postlist from "../posts.json"
 
-import "./components.css"
-
 const PostList = () => {
     const excerptList = postlist.map(post => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
