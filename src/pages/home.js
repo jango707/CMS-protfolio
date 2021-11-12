@@ -11,6 +11,9 @@ const Home = () => {
     function getRandomColor(){
         return hexArray[Math.floor(Math.random() * hexArray.length)];
     }
+    function onButton(e){
+         window.location.assign("/" + e.target.name)
+    }
     return (
         <div>
             <Layout>
@@ -24,9 +27,9 @@ const Home = () => {
                                             <h4 className="font-alt font-light">Check out what I have been up to. <b className="text-teal-700">Enjoy!</b></h4>
                                             <div className="animated fadeIn row u-text-center">
                                                 <div className="col-12">
-                                                    <button className="btn-light capitalize" style={{fontSize:'20px'}}>About Me</button>
-                                                    <button className=" btn-light capitalize" style={{fontSize:'20px'}}>Work Experience</button>
-                                                    <button className="btn-light capitalize" style={{fontSize:'20px'}}>Projects</button>                                            
+                                                    <button name="about" onClick={onButton} className="btn-light capitalize" style={{fontSize:'20px'}}>About Me</button>
+                                                    <button name="work" onClick={onButton} className=" btn-light capitalize" style={{fontSize:'20px'}}>Work Experience</button>
+                                                    <button name="projects" onClick={onButton} className="btn-light capitalize" style={{fontSize:'20px'}}>Projects</button>                                            
                                                 </div>
                                             </div>
                                         </div>
