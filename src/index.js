@@ -5,6 +5,7 @@ import './index.css';
 import "typeface-raleway"
 import 'cirrus-ui'; 
 import Home from "./pages/home"
+import Projects from "./pages/projects"
 import About from "./pages/about"
 import Post from "./pages/post"
 import NotFound from "./pages/notfound"
@@ -15,6 +16,7 @@ ReactDOM.render(
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/projects" component={Projects} />
                 <Route exact path="/post/:id" render={props => <Post {...props} />} />
                 <Route exact path="/404" component={NotFound} />
                 <Redirect to="/404" />

@@ -25,8 +25,8 @@ const Header = () => {
                  <div className="nav-dropdown-link">Menu</div> 
                  <ul className="dropdown-menu dropdown-animated" role="menu">
                     <li ><a href="/about">About Me</a></li>
-                    <li ><a href="/">Work Experience</a></li> 
-                    <li ><a href="/">Projects</a></li>
+                    <li ><a href="/work">Work Experience</a></li> 
+                    <li ><a href="/projects">Projects</a></li>
                  </ul>
               </div>
            </div>
