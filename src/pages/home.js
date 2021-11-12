@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import PostList from "../components/postlist"
 import "./pages.css"
 import './homeAnimation.css'
 
@@ -37,7 +36,7 @@ const Home = () => {
                         </div>
                     </section>
                 </Layout>
-                <ul class="circles">
+                <ul className="circles">
                         <li style={{backgroundColor: getRandomColor()}}></li>
                         <li style={{backgroundColor: getRandomColor()}}></li>
                         <li style={{backgroundColor: getRandomColor()}}></li>

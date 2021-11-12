@@ -5,7 +5,7 @@ const Header = () => {
         <div className="header header-fixed unselectable header-animated">
         <div className="header-brand">
            <div className="nav-item no-hover">
-              <h6 className="title">Jang Belche</h6>
+              <h6 className="title"><a href="/">Jang Belche</a></h6>
            </div>
            <div className="nav-item nav-btn" id="header-btn"> <span></span> <span></span> <span></span> </div>
         </div>
@@ -15,11 +15,11 @@ const Header = () => {
            </div>
            <div className="nav-right">
               <div className="nav-item has-sub toggle-hover" id="dropdown">
-                 <a className="nav-dropdown-link">Menu</a> 
+                 <div className="nav-dropdown-link">Menu</div> 
                  <ul className="dropdown-menu dropdown-animated" role="menu">
-                    <li role="menu-item"><a href="#">First Item</a></li>
-                    <li role="menu-item"><a href="#">Second Item</a></li>
-                    <li role="menu-item"><a href="#">Third Item</a></li>
+                    <li ><a href="/about">About Me</a></li>
+                    <li ><a href="/">Work Experience</a></li> 
+                    <li ><a href="/">Projects</a></li>
                  </ul>
               </div>
            </div>
