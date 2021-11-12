@@ -1,3 +1,12 @@
+#icons i {
+    color: #0a616a;
+    margin-top: -10px;
+}
+#icons i:hover{
+    color: #114448;
+}
+
+
 .postlist {
     width: 40%;
     margin: auto;
