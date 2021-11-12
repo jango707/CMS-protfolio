@@ -15,7 +15,7 @@ const About = () => {
                                 <div className="content u-text-center pt-3 ">
                                     <div className="row">
                                     <div className="col-4 u-center ">
-                                        <div className="avatar avatar--xlarge bg-light"><img src={profile} alt="profile_pic" /></div>
+                                        <div className="u-center"><img src={profile} alt="profile_pic" /></div>
                                     </div>
                                     <div className="col-8 u-center">
                                         <div className="row">

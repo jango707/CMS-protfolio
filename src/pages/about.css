@@ -6,6 +6,10 @@
     min-width: 250px;
     width: 100%;
 }
+#about-page #card img{
+    border-radius: 50%;
+    max-width: 150px;
+}
 #icons i {
     color: #0a616a;
     margin-top: -10px;
@@ -15,10 +19,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #about-page{
-        margin-top: 0px;
-        overflow: hidden;
-    }
     #about-page #card {
         max-width: 100%;
         min-width: 350px;
