@@ -54,13 +54,13 @@ const ProjectCard = (props) => {
     }
 
     function convertToSlug(Text)
-{
-    return Text
-        .toLowerCase()
-        .replace(/ /g,'-')
-        .replace(/[^\w-]+/g,'')
-        ;
-}
+    {
+        return Text
+            .toLowerCase()
+            .replace(/ /g,'-')
+            .replace(/[^\w-]+/g,'')
+            ;
+    }
     
     return (
         <div id="card" name={slug} onClick={props.onClick}>
@@ -78,10 +78,15 @@ const ProjectCard = (props) => {
                         </div>
                     </div>
                 </div>
-                <div name={slug} class="card__body content">
+                <div name={slug} class="card__body content" style={{marginBottom:'5px'}}>
                     <p name={slug}>{description}</p>
                 </div>
-                <div name={slug} class="card__footer content">{minutesToRead} min. {secondsToRead} sec. read</div>
+                <div name={slug} class="card__footer content" style={{marginBottom:'-15px', fontSize:'15px'}}>
+                    Demo: <a href={demo} class="u u-C text-dark">{demo}</a>
+                </div>
+                <div name={slug} class="card__footer content">
+                        {minutesToRead} min. {secondsToRead} sec. read
+                </div>
             </div>
         </div>
     )

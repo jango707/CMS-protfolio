@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 #projects .card:hover{
-    background-color: #ebebeb;
+    background-color: #e9e9e9;
 }
 #projects .card__mobile-title{
     border-radius: 0.5rem;

@@ -1,5 +1,4 @@
 import React from "react"
-import { Redirect } from "react-router-dom"
 import Markdown from "react-markdown"
 import Layout from "../components/layout"
 import postlist from "../posts.json"
@@ -18,6 +17,8 @@ const Post = (props) => {
             postExists = true
         }
     })
+
+    if(!postExists)window.location.assign('/projects')
 
     function convertToSlug(Text)
     {

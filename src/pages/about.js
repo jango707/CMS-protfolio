@@ -36,16 +36,16 @@ const About = () => {
                                         </div>
                                         <div className="row" id="icons">
                                             <div className="col-3 u-center col-xs-6">
-                                                <a href="https://github.com/jango707" ><i className="fab fa-github-square fa-3x" aria-hidden="true"></i> </a>
+                                                <a href="https://github.com/jango707" ><i className="fab fa-github-square fa-2x" aria-hidden="true"></i> </a>
                                             </div>
                                             <div className="col-3 u-center col-xs-6 ">
-                                                <a href="https://www.linkedin.com/in/jang-belche/" ><i className="fab fa-linkedin fa-3x" aria-hidden="true"></i> </a>
+                                                <a href="https://www.linkedin.com/in/jang-belche/" ><i className="fab fa-linkedin fa-2x" aria-hidden="true"></i> </a>
                                             </div>
                                             <div className="col-3 u-center col-xs-6">
-                                                <a href="https://www.facebook.com/jangoQuarantino" ><i className="fab fa-facebook-square fa-3x" aria-hidden="true"></i> </a>
+                                                <a href="https://www.facebook.com/jangoQuarantino" ><i className="fab fa-facebook-square fa-2x" aria-hidden="true"></i> </a>
                                             </div>
                                             <div className="col-3 u-center col-xs-6">
-                                                <a href="https://devpost.com/jango707" ><i className="fas fa-laptop-code fa-3x" aria-hidden="true"></i> </a>
+                                                <a href="https://devpost.com/jango707" ><i className="fas fa-laptop-code fa-2x" aria-hidden="true"></i> </a>
                                             </div>
                                         </div>
                             
