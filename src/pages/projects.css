@@ -1,7 +1,23 @@
 #projects{
-    padding-top: 50px;
+    padding-top: 0px;
 }
-
+#content {
+    padding: 50px;
+}
+#projects .card {
+    cursor: pointer;
+}
+#projects .card:hover{
+    background-color: #ebebeb;
+}
+#projects .card__mobile-title{
+    border-radius: 0.5rem;
+}
 @media only screen and (max-width: 600px) {
-    
+    #projects{
+        padding-top: 20px;
+    }
+    #content {
+        padding: 20px;
+    }
 }

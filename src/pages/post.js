@@ -6,10 +6,8 @@ import postlist from "../posts.json"
 import "./pages.css"
 
 const Post = (props) => {
-    const validId = parseInt(props.match.params.id)
-    if (!validId) {
-        return <Redirect to="/404" />
-    }
+    const validId = props.match.params.slug
+    console.log(validId)
     const fetchedPost = {}
     let postExists = false
     postlist.forEach((post, i) => {
@@ -21,9 +19,6 @@ const Post = (props) => {
             postExists = true
         }
     })
-    if (postExists === false) {
-        return <Redirect to="/404" />
-    }
     return (
         <Layout>
             <div className="post">
