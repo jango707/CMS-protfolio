@@ -37,7 +37,7 @@ const Post = (props) => {
                 <div className="img u-center">
                     <img src={fetchedPost.image} alt="thumbnail" />
                 </div>
-                <a href="/projects" class="u u-LR" style={{padding:'0'}}>Return to Projects</a>
+                <a href="/projects" className="u u-LR" style={{padding:'0'}}>Return to Projects</a>
                 <Markdown source={fetchedPost.content} escapeHtml={false} />
             </div>
         </Layout>
