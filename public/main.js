@@ -79,11 +79,12 @@ const getPosts = () => {
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    author: metadata.author ? metadata.author : "No author given",
                     date: publishedDate ? publishedDate : "No date given",
                     time: parsedDate["time"],
                     thumbnail: metadata.thumbnail,
                     content: content ? content : "No content given",
+                    demo: metadata.demo ? metadata.demo : "No demo given",
+                    description: metadata.description ? metadata.description : "No description given",
                 }
                 postlist.push(post)
                 ilist.push(i)

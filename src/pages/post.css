@@ -14,6 +14,12 @@
     background-color: rgb(240, 240, 240);
     border-radius: 0.5rem;
 }
+@media only screen and (max-width: 1400px) {
+    .post{
+        padding: 80px 50px;
+        padding-top: 80px;
+    }
+}
 @media only screen and (max-width: 600px) {
     .post{
         padding: 80px 50px;

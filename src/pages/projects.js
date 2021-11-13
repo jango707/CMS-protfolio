@@ -12,14 +12,14 @@ const Projects = () => {
     return (
         <Layout>
             <section id="projects">
-                <div id="content" class="fullscreen bg-light">
+                <div id="content" class="bg-light">
                     <h1 class=" m-4 u-center">My Projects</h1>
 
                     <div className="row">
                         {
                             projects.map((project, i) => {
                                 return(
-                                    <div key={i} className="col-3 u-text-left ">
+                                    <div key={i} className="col-lg-3 u-text-left col-md-4 col-sm-6 col-xs-12">
                                         <ProjectCard onClick={onCardClick}  project={project}/>
                                     </div>                                               
                                 )
@@ -40,8 +40,8 @@ const ProjectCard = (props) => {
     const date = props.project.date
     const image = props.project.thumbnail
     const md_text = props.project.content
-    const demo = "https://github.com/jango707/CMS-protfolio"
-    const description = "Amazing project 1 sentance. This is an aweosme cool thing!!!"
+    const demo = props.project.demo
+    const description = props.project.description
     const slug = convertToSlug(title)
 
     const totalNumWords = wordsCount(md_text)
@@ -68,21 +68,21 @@ const ProjectCard = (props) => {
                 <div name={slug} class="card__container">
                     <div name={slug} class="card__image" style={{backgroundImage: `url(${image})`}}></div>
                 </div>
-                <div name={slug} class="card__mobile-title">
-                    <div name={slug} class="content">
+                <div name={slug} class="card__mobile-title" >
+                    <div name={slug} class="content" >
                         <div name={slug} class="tile">
-                            <div name={slug} class="tile__container">
+                            <div name={slug} class="tile__container" >
                                 <p name={slug} class="tile__title">{title}</p>
                                 <p name={slug} class="tile__subtitle">{date}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div name={slug} class="card__body content" style={{marginBottom:'5px'}}>
+                <div name={slug} class="card__body content" style={{marginTop:'50px'}}>
                     <p name={slug}>{description}</p>
                 </div>
-                <div name={slug} class="card__footer content" style={{marginBottom:'-15px', fontSize:'15px'}}>
-                    Demo: <a href={demo} class="u u-C text-dark">{demo}</a>
+                <div class="card__footer content"  id="link-wrap" style={{marginBottom:'0px', fontSize:'15px'}}>
+                    Demo: <a href={demo} class="" id="link">{demo}</a>
                 </div>
                 <div name={slug} class="card__footer content">
                         {minutesToRead} min. {secondsToRead} sec. read
