@@ -48,9 +48,7 @@ const WorkCard = (props) => {
                     <a href={companyLink} rel="noopener noreferrer" target="_blank">@{company}</a>
                     <p>{description}</p>
                     <p>{md_text}</p>
-                </div>
-                <div className="col-12">
-                    <p>{md_text}</p>
+                    <p>Demo: {demo}</p>
                 </div>
             </div>
     </div>
