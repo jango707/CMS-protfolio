@@ -9,6 +9,7 @@ import Projects from "./pages/projects"
 import About from "./pages/about"
 import Post from "./pages/post"
 import NotFound from "./pages/notfound"
+import work from './pages/work';
 
 ReactDOM.render(
     <Router>
@@ -18,6 +19,7 @@ ReactDOM.render(
                 <Route exact path="/about" component={About} />
                 <Route exact path="/project/:slug" component={Post} />
                 <Route exact path="/projects" component={Projects} />
+                <Route exact path="/work" component={work} />
                 <Route exact path="/404" component={NotFound} />
                 <Redirect to="/404" />
             </Switch>

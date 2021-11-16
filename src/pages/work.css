@@ -1,0 +1,8 @@
+#work{
+    padding-top: 0px;
+}
+@media only screen and (max-width: 600px) {
+    #work{
+        padding-top: 20px;
+    }
+}

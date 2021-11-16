@@ -2,9 +2,9 @@ const path = require("path")
 const fs = require("fs")
 
 const dirPath = path.join(__dirname, "../posts")
-const dirPathPages = path.join(__dirname, "../src/pages/content")
+const dirPathWork = path.join(__dirname, "../work")
 let postlist = []
-let pagelist = []
+let worklist = []
 
 const months = {
     "01": "January",
@@ -101,20 +101,20 @@ const getPosts = () => {
     return 
 }
 
-const getPages = () => {
-    fs.readdir(dirPathPages, (err, files) => {
+const getWork = () => {
+    fs.readdir(dirPathWork, (err, files) => {
         if (err) {
             return console.log("Failed to list contents of directory: " + err)
         }
         files.forEach((file, i) => {
-            let page
-            fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => { 
-                page = {
+            let work
+            fs.readFile(`${dirPathWork}/${file}`, "utf8", (err, contents) => { 
+                work = {
                     content: contents
                 }
-                pagelist.push(page)
-                let data = JSON.stringify(pagelist)
-                fs.writeFileSync("src/pages.json", data)
+                worklist.push(work)
+                let data = JSON.stringify(worklist)
+                fs.writeFileSync("src/works.json", data)
             })
         })
     })
@@ -122,4 +122,4 @@ const getPages = () => {
 }
 
 getPosts()
-getPages()
+getWork()
