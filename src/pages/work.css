@@ -1,6 +1,12 @@
 #work{
     padding-top: 0px;
 }
+#work .image img {
+    border-radius: 0.25rem;
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
 @media only screen and (max-width: 600px) {
     #work{
         padding-top: 20px;

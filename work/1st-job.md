@@ -1,6 +1,7 @@
 ---
 title: 1st job
 company: meeee
+companyLink: https://www.netlifystatus.com/
 demo: lol as if
 description: helmp me
 date: 2021-11-13T15:07:02.070Z
