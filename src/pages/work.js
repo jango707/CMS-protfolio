@@ -9,7 +9,7 @@ const Work = () => {
         <Layout>
             <section id="work">
                 <div id="content" className="bg-light">
-                    <h1 className=" m-4 u-center">My Work Experiences</h1>
+                    <h1 className=" m-6 u-center">My Work Experiences</h1>
                     {
                         works.map((work, i) => {
 
@@ -33,7 +33,7 @@ const WorkCard = (props) => {
     const company = props.work.company
     const companyLink = props.work.companyLink
     const demo = props.work.demo
-    const description = props.work.description
+    const timePeriod = props.work.timePeriod
     const image = props.work.thumbnail
     const md_text = props.work.content
 
@@ -46,9 +46,9 @@ const WorkCard = (props) => {
                 <div className="col-8 p-4">
                     <h3>{title}</h3>
                     <a href={companyLink} rel="noopener noreferrer" target="_blank">@{company}</a>
-                    <p>{description}</p>
+                    <p id="timePeriod">{timePeriod}</p>
                     <p>{md_text}</p>
-                    <p>Demo: {demo}</p>
+                    <p>Demo: <a href={demo} rel="noopener noreferrer" target="_blank">{demo}</a></p>
                 </div>
             </div>
     </div>
