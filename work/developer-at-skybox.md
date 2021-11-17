@@ -2,6 +2,7 @@
 title: Co-founder and Developer at Skybox
 company: Skybox
 companyLink: https://twitter.com/SkyboxGame
+order: 4
 demo: https://www.youtube.com/watch?v=xJWxjKOu35k
 timePeriod: October 2018 - March 2021
 date: 2021-11-17T12:41:04.221Z
