@@ -142,7 +142,7 @@ const getWork = () => {
                 const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
                 const date = new Date(datestring)
                 work = {
-                    id: metadata.order,
+                    id: parseInt(metadata.order),
                     title: metadata.title ? metadata.title : "No title given",
                     date: publishedDate ? publishedDate : "No date given",
                     time: parsedDate["time"],
