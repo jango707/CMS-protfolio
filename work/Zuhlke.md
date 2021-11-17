@@ -2,6 +2,7 @@
 title: Business Analyst at Imago
 company: Imago Software Company
 companyLink: https://imago.cs.manchester.ac.uk/
+order: 3
 demo: https://supergen-bioenergy.netlify.app/
 timePeriod: June - September 2020
 date: 2021-11-17T12:33:36.132Z
