@@ -14,9 +14,13 @@ const Work = () => {
                     {
                         works.map((work, i) => {
 
-                            return(
-                                <WorkCard key={i} work={work}/>
-                            )
+                            return works.map(w => {
+                                if(w.id === i+1){
+                                    return(
+                                        <WorkCard key={i} work={w}/>
+                                    )
+                                }else return ""
+                            });
                             
                         })
                     }
@@ -39,7 +43,7 @@ const WorkCard = (props) => {
     const md_text = props.work.content
 
     return (
-        <div class="card">
+        <div className="card">
             <div className="row">
                 <div className="col-4 image p-4 u-center">
                     <img src={image} alt="work-thumbnail" />

@@ -141,9 +141,8 @@ const getWork = () => {
                 const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`
                 const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
                 const date = new Date(datestring)
-                const timestamp = date.getTime() / 1000
                 work = {
-                    id: timestamp,
+                    id: metadata.order,
                     title: metadata.title ? metadata.title : "No title given",
                     date: publishedDate ? publishedDate : "No date given",
                     time: parsedDate["time"],
