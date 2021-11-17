@@ -1,4 +1,5 @@
 import React from "react"
+import ReactMarkdown from "react-markdown"
 import Layout from "../components/layout"
 
 import works from '../works.json'
@@ -40,14 +41,14 @@ const WorkCard = (props) => {
     return (
         <div class="card">
             <div className="row">
-                <div className="col-4 image p-4">
+                <div className="col-4 image p-4 u-center">
                     <img src={image} alt="work-thumbnail" />
                 </div>
                 <div className="col-8 p-4">
                     <h3>{title}</h3>
                     <a href={companyLink} rel="noopener noreferrer" target="_blank">@{company}</a>
                     <p id="timePeriod">{timePeriod}</p>
-                    <p>{md_text}</p>
+                    <ReactMarkdown>{md_text}</ReactMarkdown>
                     <p>Demo: <a href={demo} rel="noopener noreferrer" target="_blank">{demo}</a></p>
                 </div>
             </div>
