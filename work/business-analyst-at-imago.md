@@ -2,6 +2,7 @@
 title: Zuhlke Internship
 company: Zuhlke
 companyLink: https://www.zuehlke.com/en
+order: 2
 demo: https://youtu.be/0AqxVt9O3Pk
 timePeriod: June - September 2021
 date: 2021-11-16T18:35:51.084Z
