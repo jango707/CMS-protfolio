@@ -23,14 +23,6 @@ We built the backend server for connecting to a Mi Band 2 and then transmitting 
 
 To get the data from the fitness tracker to our game we were initially expecting to find an API provided by the manufacturers themselves. Unfortunately, this was not the case to be. We had to write the entire backend server simply to serve this purpose. This was a very complicated process but luckily the data we received was un-encrypted so after all of this our efforts did not go to waste. After this, the next challenge was sending the data from Node.js to our game in C#. We considered several options such as setting up a WebSocket to continuously transmit this data from one place to another. However, we implemented an option we consider to be better in terms of storage and processing. We made a simple JSON file on the local device and kept on updating the data in there. At any given point, that file only contained one data point -- the latest one. In C# then we simply opened and read the JSON file periodically to find the current heartbeat of the user.
 
-### Accomplishments that we're proud of
-
-We are really proud of the multiplayer game that we have managed to make since neither of us had any experience with these kinds of games before. Additionally, we haven't worked with hardware hacks before either and the fact that we were able to essentially make our own API for fetching data from the fitness trackers despite the manufacturer not offering any developer support at all. We are really satisfied with our product.
-
 ### What we learned
 
 We learned to work with hardware, about communication protocols, WebSockets, backend servers using Node.js, and how a multiplayer game works behind the scenes. Most important of all, we learned a lot about working under time pressure. Since this was all very new to us and we chose this project to test our limits, we had to make sure we were managing our time well between, research, development and production.
-
-### What's next for RelaxLane
-
-Given more time to work on this project, we would try to make it a 3D game, add a racing against other players kind of scenario and add more boost-related features like bamboozling other players when you pick up a certain item, etc.
