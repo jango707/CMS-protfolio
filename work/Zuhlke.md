@@ -6,7 +6,7 @@ order: 3
 demo: https://supergen-bioenergy.netlify.app/
 timePeriod: June - September 2020
 date: 2021-11-17T12:33:36.132Z
-thumbnail: /images/image-1-.png
+thumbnail: https://imago.cs.manchester.ac.uk/wp-content/uploads/2020/09/imago-mini-logo.png
 ---
 We created a progressive web application using React to introduce members of the public and other interested parties to current issues and innovations in bioenergy, for the [UK Supergen Bioenergy Hub](https://www.supergen-bioenergy.net/) research consortium. The application is aimed at promoting better understanding of bioenergy, and the work of the consortium members, at conferences and events. It allows the user to ask questions of bioenergy researchers, learn about bioenergy concepts and facts, and to understand some of the trade-offs involved in implementing bioenergy in practice.
 
