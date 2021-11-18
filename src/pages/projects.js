@@ -78,7 +78,7 @@ const ProjectCard = (props) => {
         <div id="card" name={slug} onClick={props.onClick}>
             <div name={slug} className="card card--slide-up">
                 <div name={slug} className="card__container">
-                    <div name={slug} className="card__image"><img src={image} /></div>
+                    <div name={slug} className="card__image"><img src={image} alt="thumb-bg" /></div>
                 </div>
                 <div name={slug} className="card__mobile-title" >
                     <div name={slug} className="content" >
