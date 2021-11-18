@@ -14,6 +14,7 @@ const Post = (props) => {
             fetchedPost.title = post.title ? post.title : "No title given"
             fetchedPost.date = post.date ? post.date : "No date given"
             fetchedPost.content = post.content ? post.content : "No content given"
+            fetchedPost.demo = post.demo ? post.demo : "No content given"
             fetchedPost.image = post.thumbnail ? post.thumbnail : ""
             postExists = true
         }
@@ -40,6 +41,9 @@ const Post = (props) => {
                 </div>
                 <a href="/projects" className="u u-LR" style={{padding:'0'}}>Return to Projects</a>
                 <Markdown source={fetchedPost.content} escapeHtml={false} />
+                <p>
+                    Try it out: <a href={fetchedPost.demo} rel="noopener noreferrer" target="_blank"> {fetchedPost.demo} </a>
+                </p>
             </div>
             <Footer />
         </Layout>

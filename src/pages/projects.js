@@ -18,7 +18,7 @@ const Projects = () => {
 
                     <div className="row">
                         {
-                            projects.map((project, i) => {
+                            projects.sort(() => Math.random() - 0.5).map((project, i) => {
                                 return(
                                     <div  key={i} className=" desktop col-lg-3 u-text-left col-md-4 col-sm-6 col-xs-12">
                                         <ProjectCard onClick={onCardClick}  project={project}/>
@@ -27,7 +27,7 @@ const Projects = () => {
                             })
                         }     
                         {
-                            projects.map((project, i) => {
+                            projects.sort(() => Math.random() - 0.5).map((project, i) => {
                                 return(
                                     <div key={i} className=" mobile col-lg-3 u-text-left col-md-4 col-sm-6 col-xs-12">
                                         <SimpleProjectCard onClick={onCardClick}  project={project}/>
