@@ -36,8 +36,8 @@ const Projects = () => {
                             })
                         }                         
                     </div>           
+                <Footer />  
                 </div>           
-            <Footer />  
             </section>
 
         </Layout>
