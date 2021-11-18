@@ -22,6 +22,11 @@
     padding-right: 10px;
     overflow: hidden;
 }
+#projects .card__image img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
 .desktop{
     display: block;
 }

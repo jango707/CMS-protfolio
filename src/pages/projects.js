@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import projects from '../posts.json'
 import wordsCount from 'words-count';
 import './projects.css'
+import Footer from "../components/footer";
 
 const Projects = () => {
     function onCardClick(e){
@@ -36,7 +37,9 @@ const Projects = () => {
                         }                         
                     </div>           
                 </div>           
+            <Footer />  
             </section>
+
         </Layout>
     )
 }
@@ -75,7 +78,7 @@ const ProjectCard = (props) => {
         <div id="card" name={slug} onClick={props.onClick}>
             <div name={slug} className="card card--slide-up">
                 <div name={slug} className="card__container">
-                    <div name={slug} className="card__image" style={{backgroundImage: `url(${image})`}}></div>
+                    <div name={slug} className="card__image"><img src={image} /></div>
                 </div>
                 <div name={slug} className="card__mobile-title" >
                     <div name={slug} className="content" >
@@ -94,7 +97,7 @@ const ProjectCard = (props) => {
                     Demo: <a href={demo} className="" id="link">{demo}</a>
                 </div>
                 <div name={slug} className="card__footer content">
-                        {minutesToRead} min. {secondsToRead} sec. read
+                        {minutesToRead} min. {secondsToRead} sec. read | Click to read more.
                 </div>
             </div>
         </div>

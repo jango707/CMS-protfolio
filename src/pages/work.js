@@ -1,5 +1,6 @@
 import React from "react"
 import ReactMarkdown from "react-markdown"
+import Footer from "../components/footer"
 import Layout from "../components/layout"
 
 import works from '../works.json'
@@ -26,6 +27,7 @@ const Work = () => {
                     }
                     
                 </div>
+                <Footer />
             </section>
         </Layout>
     )
