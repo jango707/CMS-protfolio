@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import profile from '../staticPics/profile.png'
+import profile from '../staticPics/profile.jfif'
 
 import './about.css'
 
@@ -14,8 +14,8 @@ const About = () => {
                             <div className="card" id="card" >
                                 <div className="content u-text-center pt-3 ">
                                     <div className="row">
-                                    <div className="col-4 u-center ">
-                                        <div className="u-center"><img src={profile} alt="profile_pic" /></div>
+                                    <div className="col-4 u-center profile">
+                                        <img src={profile} style={{maxWidth:'100%'}} alt="profile_pic" />
                                     </div>
                                     <div className="col-8 u-center">
                                         <div className="row">
@@ -23,7 +23,7 @@ const About = () => {
                                                 <h3 className="title u-center">Jang Belche <span role="img" aria-label="beer">🍺</span></h3>
                                             </div>
                                             <div className="col-6 u-text-left ">
-                                                <h6 className="title">From: Lux</h6>
+                                                <h6 className="title">From: Luxembourg</h6>
                                                 <h6 className="title">Favorite Hobby: <span role="img" aria-label="lux-flag">🏀</span></h6>
                                             </div>
                                             <div className="col-6 u-text-left ">

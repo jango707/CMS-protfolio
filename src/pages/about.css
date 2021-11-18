@@ -10,6 +10,9 @@
     border-radius: 50%;
     max-width: 150px;
 }
+.profile img{
+    width: 90%;
+}
 #icons i {
     color: #195780;
     margin-top: -10px;
