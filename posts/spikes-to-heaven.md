@@ -1,5 +1,5 @@
 ---
-title: "Spikes To Heaven "
+title: Spikes To Heaven
 demo: https://jango707.itch.io/spikes-to-heaven
 description: Submission for the Mash-Up Game Jam 2020
 date: 2020-05-15T09:38:25.864Z
