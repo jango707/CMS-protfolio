@@ -18,7 +18,9 @@ const Header = () => {
         </div>
         <div className="header-nav" id="header-menu">
            <div className="nav-left">
-              <div className="nav-item text-center"> <a href="https://github.com/jango707"> <span className="icon"> <i className="fab fa-github fa-2x" aria-hidden="true"></i> </span> </a> </div>
+            <div className="nav-item text-center"> <a href="https://github.com/jango707"> <span className="icon"> <i className="fab fa-github fa-2x" aria-hidden="true"></i> </span> </a> </div>
+              <div className="nav-item text-center"> <a href="/work">Work</a> </div>
+              <div className="nav-item text-center"> <a href="/projects">Projects</a> </div>
            </div>
            <div className="nav-right">
               <div className="nav-item has-sub toggle-hover" id="dropdown">

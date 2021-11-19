@@ -27,6 +27,9 @@
     object-fit: cover;
     border-radius: 0.25rem;
 }
+#projects .card__image::after{
+    background-color: #ffffff00;
+}
 .desktop{
     display: block;
 }
