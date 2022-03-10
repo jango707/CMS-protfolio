@@ -6,7 +6,7 @@ order: 4
 demo: https://www.youtube.com/watch?v=xJWxjKOu35k
 timePeriod: October 2018 - March 2021
 date: 2021-11-17T12:41:04.221Z
-thumbnail: https://media-exp1.licdn.com/dms/image/C560BAQF9jG50EJqzCw/company-logo_200_200/0/1523301317844?e=1645056000&v=beta&t=-yinV7W-CsiT7JADNwyGhya4pCR8fU7Uyf997rSC5yY
+thumbnail: https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/69/c2/35/69c23578-2ca6-0814-0b51-c705ef87a8ab/source/512x512bb.jpg
 ---
 Skybox is a student-found start-up, that lets you experience the world’s history in just one touch. We implement personalized immersive experiences into museums to provide more vivid and interactive learning experiences for their visitors. 
 
