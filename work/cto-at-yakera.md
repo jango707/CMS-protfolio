@@ -2,7 +2,7 @@
 title: CTO at Yakera
 company: Yakera
 companyLink: https://www.yakera.org/
-order: 1
+order: 2
 demo: https://www.yakera.org/
 timePeriod: March 2020 - present
 date: 2021-11-17T12:34:30.763Z
