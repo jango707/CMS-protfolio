@@ -2,7 +2,7 @@
 title: Full-stack Engineer Intern at Datacamp
 company: Datacamp
 companyLink: https://www.datacamp.com/
-order: 0
+order: 1
 demo: https://www.datacamp.com/
 timePeriod: July - October 2022
 date: 2022-08-17T11:51:19.865Z
