@@ -1,8 +1,16 @@
 .demo-card {
   background-color: white;
-  padding: 100px;
   border-radius: 10px;
+  max-width: 200px;
+  max-height: 200px;
+  min-height: 200px;
+  min-width: 200px;
+  display: flex;
 }
 .demo-card:hover {
   cursor: pointer;
+}
+.demo-card img {
+  border-radius: 10px;
+  align-self: center;
 }
