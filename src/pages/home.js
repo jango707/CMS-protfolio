@@ -13,9 +13,9 @@ const Home = () => {
   }
   return (
     <div>
-      <Layout>
+      <Layout hasFooter={false}>
         <section
-          className="section bg-light"
+          className="section"
           style={{ background: "linear-gradient(to right, #f6f9fc, #f0f9fc" }}
         >
           <div className="hero fullscreen">

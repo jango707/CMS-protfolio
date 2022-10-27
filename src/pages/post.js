@@ -1,6 +1,5 @@
 import React from "react";
 import Markdown from "react-markdown";
-import Footer from "../components/footer";
 import Layout from "../components/layout";
 import postlist from "../posts.json";
 import "./post.css";
@@ -49,7 +48,6 @@ const Post = (props) => {
           </a>
         </p>
       </div>
-      <Footer />
     </Layout>
   );
 };

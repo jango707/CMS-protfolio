@@ -1,6 +1,5 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import Footer from "../components/footer";
 import Layout from "../components/layout";
 
 import works from "../works.json";
@@ -10,7 +9,7 @@ const Work = () => {
   return (
     <Layout>
       <section id="work">
-        <div id="content" className="bg-light">
+        <div id="content">
           <h1 className=" m-6 u-center">My Work Experiences</h1>
           {works.map((work, i) => {
             return works.map((w) => {
@@ -20,7 +19,6 @@ const Work = () => {
             });
           })}
         </div>
-        <Footer />
       </section>
     </Layout>
   );

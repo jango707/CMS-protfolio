@@ -38,6 +38,10 @@ const Header = () => {
           </div>
           <div className="nav-item text-center">
             {" "}
+            <a href="/about">About Me</a>{" "}
+          </div>
+          <div className="nav-item text-center">
+            {" "}
             <a href="/work">Work</a>{" "}
           </div>
           <div className="nav-item text-center">
@@ -47,7 +51,6 @@ const Header = () => {
         </div>
         <div className="nav-right">
           <div className="nav-item has-sub toggle-hover" id="dropdown">
-            <div className="nav-dropdown-link">Menu</div>
             <ul className="dropdown-menu dropdown-animated" role="menu">
               <li>
                 <a href="/about">About Me</a>

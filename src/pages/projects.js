@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import projects from "../posts.json";
 import wordsCount from "words-count";
 import "./projects.css";
-import Footer from "../components/footer";
 
 const Projects = () => {
   function onCardClick(e) {
@@ -13,7 +12,7 @@ const Projects = () => {
   return (
     <Layout>
       <section id="projects">
-        <div id="content" className="bg-light">
+        <div id="content">
           <h1 className=" m-4 u-center">My Projects</h1>
 
           <div className="row">
@@ -45,7 +44,6 @@ const Projects = () => {
                 );
               })}
           </div>
-          <Footer />
         </div>
       </section>
     </Layout>

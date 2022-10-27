@@ -1,14 +1,14 @@
 import React from "react";
+import { colours } from "../colors";
+import Footer from "./footer";
 import Header from "./header";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, hasFooter = true }) => {
   return (
-    <div className="layout">
+    <div className="layout" style={{ backGroundColor: colours.white }}>
       <Header />
       <div>{children}</div>
-      {/* <div className="layout-body">
-                <Footer />
-            </div> */}
+      {hasFooter && <Footer />}
     </div>
   );
 };
