@@ -1,1 +1,16 @@
-[{"id":"Supergen\r","title":"Supergen\r","thumbnail":"/images/group-3726-2x.png\r","content":"No content given"},{"id":"Test Showcase\r","title":"Test Showcase\r","thumbnail":"/images/yakeralogo.webp\r","content":"No content given"}]
+[
+  {
+    "id": "Supergen\r",
+    "title": "Supergen\r",
+    "thumbnail": "/images/group-3726-2x.png\r",
+    "content": "No content given",
+    "image": "/images/image-1-.png\r"
+  },
+  {
+    "id": "Test Showcase\r",
+    "title": "Test Showcase\r",
+    "thumbnail": "/images/yakeralogo.webp\r",
+    "content": "No content given",
+    "image": "/images/webyakera.png\r"
+  }
+]

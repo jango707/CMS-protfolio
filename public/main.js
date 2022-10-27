@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const dirPath = path.join(__dirname, "../posts");
 const dirPathWork = path.join(__dirname, "../work");
-const dirPatShowcases = path.join(__dirname, "../showcases");
+const dirPathShowcases = path.join(__dirname, "../showcases");
 let postlist = [];
 let showcaseList = [];
 let worklist = [];
@@ -181,14 +181,14 @@ const getWork = () => {
   return;
 };
 const getShowcases = () => {
-  fs.readdir(dirPatShowcases, (err, files) => {
+  fs.readdir(dirPathShowcases, (err, files) => {
     if (err) {
       return console.log("Failed to list contents of directory: " + err);
     }
     files.forEach((file, i) => {
       let obj = {};
       let showcase;
-      fs.readFile(`${dirPatShowcases}/${file}`, "utf8", (err, contents) => {
+      fs.readFile(`${dirPathShowcases}/${file}`, "utf8", (err, contents) => {
         const getMetadataIndices = (acc, elem, i) => {
           if (/^---/.test(elem)) {
             acc.push(i);
@@ -223,7 +223,7 @@ const getShowcases = () => {
           title: metadata.title ? metadata.title : "No title given",
           thumbnail: metadata.thumbnail,
           content: content ? content : "No content given",
-          image: metadata.image,
+          image: metadata.images,
         };
         showcaseList.push(showcase);
         let data = JSON.stringify(showcaseList);

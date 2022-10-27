@@ -1,8 +1,13 @@
 import React from "react";
-import Layout from "../components/layout";
+import { useState } from "react";
+import Layout from "../../components/layout";
 import DemoComponent from "./DemoComponent";
+import DemoContent from "./DemoContent";
+
+import demos from "../../showcases.json";
 
 function Showcase() {
+  const [activeDemoId, setDemoId] = useState("");
   return (
     <Layout hasFooter={false}>
       <section
@@ -21,7 +26,12 @@ function Showcase() {
             This page contains my highest quality work. These projects have been
             created over months in a collaborative and professional environment.
           </b>
-          <DemoComponent />
+          <DemoComponent
+            onCardClick={(e) => setDemoId(e.currentTarget.id)}
+            activeDemoId={activeDemoId}
+            demos={demos}
+          />
+          <DemoContent demo={demos.find((d) => d.id === activeDemoId)} />
         </div>
       </section>
     </Layout>

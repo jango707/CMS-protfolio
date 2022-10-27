@@ -6,6 +6,7 @@
   min-height: 200px;
   min-width: 200px;
   display: flex;
+  justify-content: center;
 }
 .demo-card:hover {
   cursor: pointer;
@@ -13,4 +14,8 @@
 .demo-card img {
   border-radius: 10px;
   align-self: center;
+}
+.active-card {
+  border: 10px solid #14444c28;
+  border-radius: 20px;
 }

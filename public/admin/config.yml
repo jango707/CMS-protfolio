@@ -42,5 +42,5 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Demo Image", name: "thumbnail", widget: "image" }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Extra Images", name: "images", widget: "image" }

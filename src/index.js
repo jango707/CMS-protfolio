@@ -15,7 +15,7 @@ import About from "./pages/about";
 import Post from "./pages/post";
 import NotFound from "./pages/notfound";
 import work from "./pages/work";
-import Showcase from "./pages/showcase";
+import Showcase from "./pages/Showcase/showcase";
 
 ReactDOM.render(
   <Router>
