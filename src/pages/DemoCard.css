@@ -1,0 +1,8 @@
+.demo-card {
+  background-color: white;
+  padding: 100px;
+  border-radius: 10px;
+}
+.demo-card:hover {
+  cursor: pointer;
+}

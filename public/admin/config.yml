@@ -3,8 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 # These lines should *not* be indented
-media_folder: "public/images" 
-public_folder: "/images" 
+media_folder: "public/images"
+public_folder: "/images"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -13,24 +13,34 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Demo", name: "demo", widget: "string"}
-      - {label: "Short Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Demo", name: "demo", widget: "string" }
+      - { label: "Short Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "work" # Used in routes, e.g., /admin/collections/blog
     label: "Work Experience" # Used in the UI
     folder: "work" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Company", name: "company", widget: "string"}
-      - {label: "Company Link", name: "companyLink", widget: "string"}
-      - {label: "Order", name: "order", widget: "number"}
-      - {label: "Demo", name: "demo", widget: "string"}
-      - {label: "Time period", name: "timePeriod", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Company", name: "company", widget: "string" }
+      - { label: "Company Link", name: "companyLink", widget: "string" }
+      - { label: "Order", name: "order", widget: "number" }
+      - { label: "Demo", name: "demo", widget: "string" }
+      - { label: "Time period", name: "timePeriod", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "showcases" # Used in routes, e.g., /admin/collections/blog
+    label: "Showcase demos" # Used in the UI
+    folder: "showcases" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Demo Image", name: "thumbnail", widget: "image" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Extra Images", name: "images", widget: "image" }
