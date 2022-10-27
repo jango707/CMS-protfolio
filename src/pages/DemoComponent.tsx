@@ -7,8 +7,6 @@ import Flicking from "@egjs/react-flicking";
 
 import "./DemoCard.css";
 
-const Demos = {};
-
 export default class DemoComponent extends Component {
   private _plugins = [
     new Perspective({ rotate: -1, scale: 2, perspective: 600 }),
