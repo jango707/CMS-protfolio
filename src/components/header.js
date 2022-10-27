@@ -46,7 +46,11 @@ const Header = () => {
           </div>
           <div className="nav-item text-center">
             {" "}
-            <a href="/projects">Projects</a>{" "}
+            <a href="/showcase">Showcase</a>{" "}
+          </div>
+          <div className="nav-item text-center">
+            {" "}
+            <a href="/projects">Fun Projects</a>{" "}
           </div>
         </div>
         <div className="nav-right">
@@ -59,7 +63,10 @@ const Header = () => {
                 <a href="/work">Work Experience</a>
               </li>
               <li>
-                <a href="/projects">Projects</a>
+                <a href="/showcase">Showcase</a>
+              </li>
+              <li>
+                <a href="/projects">Fun Projects</a>
               </li>
             </ul>
           </div>

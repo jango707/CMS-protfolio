@@ -13,7 +13,16 @@ const Projects = () => {
     <Layout>
       <section id="projects">
         <div id="content">
-          <h1 className=" m-4 u-center">My Projects</h1>
+          <h2 className=" m-4 u-center">My Projects</h2>
+          <b
+            style={{
+              fontSize: "large",
+            }}
+            className=" m-4 u-center"
+          >
+            Check out these little projects of mine. They were created during
+            hackathons, game jams, or just me trying out something new.{" "}
+          </b>
 
           <div className="row">
             {projects

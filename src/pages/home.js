@@ -47,12 +47,20 @@ const Home = () => {
                           Work Experience
                         </button>
                         <button
+                          name="showcase"
+                          onClick={onButton}
+                          className="btn-light capitalize"
+                          style={{ fontSize: "20px" }}
+                        >
+                          Showcase
+                        </button>
+                        <button
                           name="projects"
                           onClick={onButton}
                           className="btn-light capitalize"
                           style={{ fontSize: "20px" }}
                         >
-                          Projects
+                          Fun Projects
                         </button>
                       </div>
                     </div>
@@ -64,6 +72,7 @@ const Home = () => {
         </section>
       </Layout>
       <ul className="circles">
+        <li style={{ backgroundColor: getRandomColor() }}></li>
         <li style={{ backgroundColor: getRandomColor() }}></li>
         <li style={{ backgroundColor: getRandomColor() }}></li>
         <li style={{ backgroundColor: getRandomColor() }}></li>

@@ -15,6 +15,7 @@ import About from "./pages/about";
 import Post from "./pages/post";
 import NotFound from "./pages/notfound";
 import work from "./pages/work";
+import Showcase from "./pages/showcase";
 
 ReactDOM.render(
   <Router>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/showcase" component={Showcase} />
         <Route exact path="/project/:slug" component={Post} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/work" component={work} />
