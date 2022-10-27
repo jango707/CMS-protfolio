@@ -1,28 +1,28 @@
-.post{
-    padding: 50px 500px;
-    padding-top: 80px;
-} 
+.post {
+  padding: 50px 500px;
+  padding-top: 80px;
+}
 .post .img img {
-    border-radius: 0.5rem;
-    width: 80%;
-    min-width: 200px;
-    max-width: 1000px;
+  border-radius: 0.5rem;
+  width: 80%;
+  min-width: 200px;
+  max-width: 1000px;
 }
 .post .img {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: rgb(240, 240, 240);
-    border-radius: 0.5rem;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 0.5rem;
 }
 @media only screen and (max-width: 1400px) {
-    .post{
-        padding: 80px 50px;
-        padding-top: 80px;
-    }
+  .post {
+    padding: 80px 50px;
+    padding-top: 80px;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .post{
-        padding: 80px 50px;
-        padding-top: 80px;
-    }
+  .post {
+    padding: 80px 50px;
+    padding-top: 80px;
+  }
 }

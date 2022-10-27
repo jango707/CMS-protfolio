@@ -2,20 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta property='og:title' content="Jang's site" />
-    <meta property='og:image' content='%PUBLIC_URL%/favicon.png' />
-    <meta property='og:description' content='This is my website portfolio. Check out what I have been up to!' data-rh="true">
-    <meta property='og:url' content='https://jangooo.netlify.app//' />
-    <meta property='og:type' content='website' />
+    <meta property="og:title" content="Jang's site" />
+    <meta property="og:image" content="%PUBLIC_URL%/favicon.png" />
+    <meta
+      property="og:description"
+      content="This is my website portfolio. Check out what I have been up to!"
+      data-rh="true"
+    />
+    <meta property="og:url" content="https://jang.software/" />
+    <meta property="og:type" content="website" />
 
-    <meta name="author" content="Jang Belche">
+    <meta name="author" content="Jang Belche" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge;" />
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -56,7 +71,7 @@
     -->
     <script>
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
+        window.netlifyIdentity.on("init", (user) => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {
               document.location.href = "/admin/";

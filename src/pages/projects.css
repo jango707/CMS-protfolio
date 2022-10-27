@@ -1,52 +1,52 @@
-#projects{
-    padding-top: 0px;
+#projects {
+  padding-top: 0px;
 }
 #content {
-    padding: 50px;
+  padding: 50px;
 }
 #projects .card {
-    cursor: pointer;
-    max-height: 700px;
+  cursor: pointer;
+  max-height: 700px;
 }
-#projects .card:hover{
-    background-color: #e9e9e9;
+#projects .card:hover {
+  background-color: #e9e9e9;
 }
-#projects .card__mobile-title{
-    border-radius: 0.25rem;
+#projects .card__mobile-title {
+  border-radius: 0.25rem;
 }
-#projects .card #link:hover{
-    color: rgb(1, 3, 124);
+#projects .card #link:hover {
+  color: rgb(1, 3, 124);
 }
-#projects .card #link-wrap{ 
-    white-space: nowrap;
-    padding-right: 10px;
-    overflow: hidden;
+#projects .card #link-wrap {
+  white-space: nowrap;
+  padding-right: 10px;
+  overflow: hidden;
 }
-#projects .card__image img{
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.25rem;
+#projects .card__image img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
 }
-#projects .card__image::after{
-    background-color: #ffffff00;
+#projects .card__image::after {
+  background-color: #ffffff00;
 }
-.desktop{
-    display: block;
+.desktop {
+  display: block;
 }
-.mobile{
-    display: none;
+.mobile {
+  display: none;
 }
 @media only screen and (max-width: 600px) {
-    #projects{
-        padding-top: 20px;
-    }
-    #content {
-        padding: 20px;
-    }
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: block;
-    }
+  #projects {
+    padding-top: 20px;
+  }
+  #content {
+    padding: 20px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }

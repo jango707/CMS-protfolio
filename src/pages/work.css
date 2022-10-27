@@ -1,23 +1,23 @@
-#work{
-    padding-top: 0px;
+#work {
+  padding-top: 0px;
 }
 #work .image img {
-    border-radius: 0.25rem;
-    width: 100%;
-    object-fit: cover;
-    max-height: 400px;
-    background-color: rgb(202, 202, 202);
+  border-radius: 0.25rem;
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+  background-color: rgb(202, 202, 202);
 }
 #work a {
-    padding: 0px;
-    color: #147580;
+  padding: 0px;
+  color: #147580;
 }
-#work #timePeriod{
-    margin-top: -10px;
-    color: #516f72
+#work #timePeriod {
+  margin-top: -10px;
+  color: #516f72;
 }
 @media only screen and (max-width: 600px) {
-    #work{
-        padding-top: 20px;
-    }
+  #work {
+    padding-top: 20px;
+  }
 }
