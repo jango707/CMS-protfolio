@@ -10,7 +10,7 @@ import "./DemoCard.css";
 class DemoComponent extends Component {
   private _plugins = [
     new Perspective({ rotate: -1, scale: 2, perspective: 600 }),
-    new AutoPlay({ duration: 1000, direction: "NEXT", stopOnHover: true }),
+    new AutoPlay({ duration: 2500, direction: "NEXT", stopOnHover: true }),
   ];
 
   render() {

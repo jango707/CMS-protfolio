@@ -12,16 +12,20 @@ function Showcase() {
     <Layout hasFooter={false}>
       <section
         id="projects"
-        style={{ background: `linear-gradient(to right, #f6f9fc, #f0f9fc` }}
+        style={{
+          background: `linear-gradient(to right, #f6f9fc, #f0f9fc`,
+          minHeight: "100vh",
+          padding: "0 20%",
+        }}
       >
         <div id="content">
           {" "}
-          <h2 className=" m-4 u-center">Showcase</h2>
+          <h2 className=" m-8 u-center">Showcase</h2>
           <b
             style={{
               fontSize: "large",
             }}
-            className=" m-4 u-center"
+            className=" m-8 u-center"
           >
             This page contains my highest quality work. These projects have been
             created over months in a collaborative and professional environment.
@@ -31,6 +35,7 @@ function Showcase() {
             activeDemoId={activeDemoId}
             demos={demos}
           />
+          <hr style={{ margin: "80px 10%" }} />
           <DemoContent demo={demos.find((d) => d.id === activeDemoId)} />
         </div>
       </section>

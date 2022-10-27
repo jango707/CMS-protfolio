@@ -5,7 +5,10 @@ import Header from "./header";
 
 const Layout = ({ children, hasFooter = true }) => {
   return (
-    <div className="layout" style={{ backGroundColor: colours.white }}>
+    <div
+      className="layout"
+      style={{ backGroundColor: colours.white, height: "100%" }}
+    >
       <Header />
       <div>{children}</div>
       {hasFooter && <Footer />}
