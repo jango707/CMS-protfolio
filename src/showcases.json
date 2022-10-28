@@ -1,18 +1,13 @@
 [
   {
-    "id": "Supergen\r",
-    "title": "Supergen\r",
-    "thumbnail": "/images/group-3726-2x.png\r",
-    "content": "s﻿sss",
-    "image": "/images/image-1-.png\r",
-    "tags": []
-  },
-  {
-    "id": "Yakera\r",
-    "title": "Yakera\r",
+    "id": "Yakera Website\r",
+    "title": "Yakera Website\r",
     "thumbnail": "/images/yakeralogo.webp\r",
-    "content": "L﻿ets goooo",
-    "image": "/images/webyakera.png\r",
-    "tags": ["sdfs", "slad", "askjd", "alskbn\r"]
+    "content": "![yakera campaigns](/images/screenshot-2022-10-28-182840.jpeg \"Yakera Campaign Page\")\r\n\r\n![Yakera Donor Hub](/images/screenshot-2022-10-28-182913.jpeg \"Yakera Donor Hub\")\r\n",
+    "images": [
+      "/images/screenshot-2022-10-28-182732.jpeg\r",
+      "/images/netlifyicon.png\r"
+    ],
+    "tags": ["React", "Jest", "Autify", "AWS", "Node", "Express", "MongoDB\r"]
   }
 ]

@@ -214,18 +214,27 @@ const getShowcases = () => {
           return lines.join("\n");
         };
 
+        const parseImages = ({ lines, metadataIndices }) => {
+          if (metadataIndices.length > 0) {
+            lines = lines.slice(metadataIndices[0] + 5, metadataIndices[1]);
+            lines = lines.map((line) => line.slice(4));
+          }
+          return lines;
+        };
+
         const lines = contents.split("\n");
         const metadataIndices = lines.reduce(getMetadataIndices, []);
         const metadata = parseMetadata({ lines, metadataIndices });
         const content = parseContent({ lines, metadataIndices });
+        const images = parseImages({ lines, metadataIndices });
         const tags = metadata.tags ? metadata.tags?.split(" ") : [];
 
         showcase = {
-          id: metadata.title ? metadata.title : "no id",
-          title: metadata.title ? metadata.title : "No title given",
+          id: metadata.title || "no id",
+          title: metadata.title || "No title given",
           thumbnail: metadata.thumbnail,
-          content: content ? content : "No content given",
-          image: metadata.images,
+          content: content || "No content given",
+          images: images || [],
           tags,
         };
         showcaseList.push(showcase);

@@ -4,7 +4,7 @@ import { colours } from "../../colors";
 
 const DemoContent = (props) => {
   if (!props.demo) return <IdleContent />;
-  const { title, image, content, tags } = props.demo;
+  const { title, images, content, tags } = props.demo;
   return (
     <div>
       <h3 style={{ textAlign: "center" }}>{title}</h3>
@@ -13,7 +13,9 @@ const DemoContent = (props) => {
       })}
       <br />
       <Markdown id="content" source={content} escapeHtml={false} />
-      <Banner image={image} />
+      {images.map((image, i) => {
+        return <img src={image} alt={"gallery-img" + i} key={i} />;
+      })}
     </div>
   );
 };
@@ -47,24 +49,5 @@ const Tag = ({ name }) => {
       {name}
       <i style={{ marginLeft: "5px" }} className="fa fa-light fa-tag" />
     </span>
-  );
-};
-
-const Banner = ({ image }) => {
-  return (
-    <div
-      style={{
-        width: "100%",
-        maxHeight: "200px",
-        overflow: "hidden",
-      }}
-    >
-      <img
-        style={{ borderRadius: "5px", objectFit: "cover" }}
-        width={"100%"}
-        src={image}
-        alt="showcase-example"
-      />
-    </div>
   );
 };
