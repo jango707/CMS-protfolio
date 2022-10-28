@@ -37,6 +37,7 @@ function Showcase() {
           />
           <hr style={{ margin: "20px 10%" }} />
           <DemoContent demo={demos.find((d) => d.id === activeDemoId)} />
+          <br />
           <a href="showcase">Back to top ⇡</a>
         </div>
       </section>

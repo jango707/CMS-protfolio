@@ -218,12 +218,15 @@ const getShowcases = () => {
         const metadataIndices = lines.reduce(getMetadataIndices, []);
         const metadata = parseMetadata({ lines, metadataIndices });
         const content = parseContent({ lines, metadataIndices });
+        const tags = metadata.tags ? metadata.tags?.split(" ") : [];
+
         showcase = {
           id: metadata.title ? metadata.title : "no id",
           title: metadata.title ? metadata.title : "No title given",
           thumbnail: metadata.thumbnail,
           content: content ? content : "No content given",
           image: metadata.images,
+          tags,
         };
         showcaseList.push(showcase);
         let data = JSON.stringify(showcaseList);
