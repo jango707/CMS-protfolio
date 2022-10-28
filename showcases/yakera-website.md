@@ -4,8 +4,7 @@ tags: React Jest Autify AWS Node Express MongoDB
 thumbnail: /images/yakeralogo.webp
 images:
   - /images/screenshot-2022-10-28-182732.jpeg
-  - /images/netlifyicon.png
+  - /images/screenshot-2022-10-28-182840.jpeg
+  - /images/screenshot-2022-10-28-182913.jpeg
 ---
-![yakera campaigns](/images/screenshot-2022-10-28-182840.jpeg "Yakera Campaign Page")
-
-![Yakera Donor Hub](/images/screenshot-2022-10-28-182913.jpeg "Yakera Donor Hub")
+T﻿he following are screenshots taken from the official Yakera Website. They are the product of multiple iterations over the user-feedback cycles and have been worked by the collaboration of designers, engineers and product managers.
