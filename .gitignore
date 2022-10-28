@@ -25,3 +25,5 @@ yarn-error.log*
 
 /src/posts.json
 /src/work.json
+/src/works.json
+/src/showcases.json

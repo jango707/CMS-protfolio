@@ -44,4 +44,9 @@ collections:
       - { label: "Tags", name: "tags", widget: "string" }
       - { label: "Demo Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Extra Images", name: "images", widget: "image" }
+      - {
+          label: "Extra Images",
+          name: "images",
+          widget: "list",
+          field: { label: Image, name: image, widget: image },
+        }
