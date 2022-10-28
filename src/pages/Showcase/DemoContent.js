@@ -1,6 +1,7 @@
 import React from "react";
 import Markdown from "react-markdown";
 import { colours } from "../../colors";
+import GalleryComponent from "./GalleryComponent";
 
 const DemoContent = (props) => {
   if (!props.demo) return <IdleContent />;
@@ -13,9 +14,7 @@ const DemoContent = (props) => {
       })}
       <br />
       <Markdown id="content" source={content} escapeHtml={false} />
-      {images.map((image, i) => {
-        return <img src={image} alt={"gallery-img" + i} key={i} />;
-      })}
+      <GalleryComponent images={images} />
     </div>
   );
 };
