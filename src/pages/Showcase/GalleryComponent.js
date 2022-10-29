@@ -27,6 +27,7 @@ const GalleryComponent = ({ images: imagesRaw }) => {
         images={images}
         enableImageSelection={false}
         onClick={handleClick}
+        margin={10}
       />
 
       {!!currentImage && (
