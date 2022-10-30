@@ -13,6 +13,8 @@ class DemoComponent extends Component {
     new AutoPlay({ duration: 2500, direction: "NEXT", stopOnHover: true }),
   ];
 
+  private isMobile = window.matchMedia("(max-width: 800px)").matches;
+
   render() {
     return (
       <Flicking
@@ -25,6 +27,10 @@ class DemoComponent extends Component {
             <div
               key={i}
               id={demo.id}
+              style={{
+                width: this.isMobile ? "150px" : "250px",
+                height: this.isMobile ? "150px" : "250px",
+              }}
               className={`demo-card ${
                 this.props.activeDemoId === demo.id && "active-card"
               }`}
