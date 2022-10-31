@@ -20,6 +20,7 @@ function Showcase() {
           background: `linear-gradient(to right, #f6f9fc, #f0f9fc`,
           minHeight: "100vh",
           padding: `0 ${isMobile ? 0 : 15}%`,
+          overflowX: "hidden",
         }}
       >
         <div id="content">
