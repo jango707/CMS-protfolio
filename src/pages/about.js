@@ -5,10 +5,7 @@ import profile from "../staticPics/profile.jfif";
 function About() {
   return (
     <Layout hasFooter={false}>
-      <section
-        id="work"
-        style={{ background: `linear-gradient(to right, #f6f9fc, #f0f9fc` }}
-      >
+      <section id="work">
         <div className="hero fullscreen">
           <div className="hero-body">
             <div className="content u-center">
