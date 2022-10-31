@@ -1,5 +1,4 @@
 import React from "react";
-import { colours } from "../colors";
 import Footer from "./footer";
 import Header from "./header";
 
