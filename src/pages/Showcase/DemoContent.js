@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Markdown from "react-markdown";
 import { colours } from "../../colors";
 import GalleryComponent from "./GalleryComponent";
 
 const DemoContent = (props) => {
+  useEffect(() => {
+    const content = document.getElementById("demo-content");
+    if (props.demo) {
+      content.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }, [props.demo]);
+
   if (!props.demo) return <IdleContent />;
   const { title, images, content, tags } = props.demo;
   return (
-    <div>
-      <h3 style={{ textAlign: "center" }}>{title}</h3>
+    <div id="demo-content">
+      <h3 style={{ textAlign: "center", marginTop: "10px" }}>{title}</h3>
       {tags.map((tag, i) => {
         return <Tag name={tag} key={i} />;
       })}

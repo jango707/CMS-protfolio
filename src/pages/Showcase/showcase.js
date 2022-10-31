@@ -5,9 +5,13 @@ import DemoComponent from "./DemoComponent";
 import DemoContent from "./DemoContent";
 
 import demos from "../../showcases.json";
+import { useIsMobile } from "../../hooks/useIsMobile";
 
 function Showcase() {
   const [activeDemoId, setDemoId] = useState("");
+
+  const isMobile = useIsMobile();
+
   return (
     <Layout hasFooter={false}>
       <section
@@ -34,6 +38,7 @@ function Showcase() {
             onCardClick={(e) => setDemoId(e.currentTarget.id)}
             activeDemoId={activeDemoId}
             demos={demos}
+            isMobile={isMobile}
           />
           <hr style={{ margin: "20px 10%" }} />
           <DemoContent demo={demos.find((d) => d.id === activeDemoId)} />
