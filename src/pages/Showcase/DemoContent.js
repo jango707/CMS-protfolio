@@ -14,8 +14,10 @@ const DemoContent = (props) => {
   if (!props.demo) return <IdleContent />;
   const { title, images, content, tags } = props.demo;
   return (
-    <div id="demo-content">
-      <h3 style={{ textAlign: "center", marginTop: "10px" }}>{title}</h3>
+    <div>
+      <h3 id="demo-content" style={{ textAlign: "center", marginTop: "10px" }}>
+        {title}
+      </h3>
       {tags.map((tag, i) => {
         return <Tag name={tag} key={i} />;
       })}

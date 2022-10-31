@@ -8,7 +8,10 @@ import "./work.css";
 const Work = () => {
   return (
     <Layout>
-      <section id="work">
+      <section
+        id="work"
+        style={{ background: `linear-gradient(to right, #f6f9fc, #f0f9fc` }}
+      >
         <div id="content">
           <h1 className=" m-6 u-center">My Work Experiences</h1>
           {works.map((work, i) => {

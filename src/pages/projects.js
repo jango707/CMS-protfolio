@@ -11,7 +11,10 @@ const Projects = () => {
   }
   return (
     <Layout>
-      <section id="projects">
+      <section
+        id="projects"
+        style={{ background: `linear-gradient(to right, #f6f9fc, #f0f9fc` }}
+      >
         <div id="content">
           <h2 className=" m-4 u-center">My Projects</h2>
           <b
