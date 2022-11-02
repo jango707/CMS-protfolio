@@ -1,5 +1,8 @@
 # Create React App With Netlify CMS
 
+https://jang.software/
+https://jangsportfolio.netlify.app/
+
 ## How to run locally
 
 `yarn start-dev` > only run the localhost (port 3000)
