@@ -1,5 +1,5 @@
 ---
-title: Business Analyst at Imago
+title: UX Developer at Imago
 company: Imago Software Company
 companyLink: https://imago.cs.manchester.ac.uk/
 order: 3
