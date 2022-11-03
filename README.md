@@ -7,6 +7,7 @@ https://jangsportfolio.netlify.app/
 ## How to run locally
 
 `yarn start-dev` > only run the localhost (port 3000)
+
 `yarn start` > compile data from markdown files and run localhost (port 3000)
 
 ## Netlify CMS configuration
