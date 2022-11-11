@@ -16,7 +16,7 @@ https://jangsportfolio.netlify.app/
 - push to main
 - adjust the `public/main.js` file to copy new widget fields into JSON
 
-## Credits
+### Credits
 
 Source code taken from https://github.com/willjw3/netlify-cms-react-app
 orginal author: @willjw3
