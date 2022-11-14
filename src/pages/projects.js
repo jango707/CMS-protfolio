@@ -33,7 +33,7 @@ const Projects = () => {
                 return (
                   <div
                     key={i}
-                    className=" desktop col-lg-3 u-text-left col-md-4 col-sm-6 col-xs-12"
+                    className="col-lg-3 u-text-left col-md-4 col-sm-6 col-xs-12"
                   >
                     <ProjectCard onClick={onCardClick} project={project} />
                   </div>
