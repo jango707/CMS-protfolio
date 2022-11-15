@@ -13,7 +13,7 @@ function Showcase() {
   const isMobile = useIsMobile();
 
   return (
-    <Layout hasFooter={false}>
+    <Layout>
       <section
         id="showcase"
         style={{

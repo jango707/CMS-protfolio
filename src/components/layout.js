@@ -8,7 +8,7 @@ const Layout = ({ children, hasFooter = true }) => {
       className="layout"
       style={{
         background: `linear-gradient(to right, #f6f9fc, #f0f9fc`,
-        height: "100%",
+        minHeight: "100vh",
       }}
     >
       <Header />

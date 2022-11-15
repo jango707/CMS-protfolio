@@ -1,0 +1,10 @@
+.ReactGridGallery_tile-viewport img {
+  max-width: 100% !important;
+  object-fit: cover;
+}
+@media screen and (max-width: 1000px) {
+  #ReactGridGallery div {
+    text-align: center;
+    width: 100%;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 import { Gallery } from "react-grid-gallery";
 import "react-image-lightbox/style.css";
+import "./Gallery.css";
 
 const GalleryComponent = ({ images: imagesRaw }) => {
   const images = imagesRaw.map((image, i) => {
