@@ -4,9 +4,7 @@
 #work .image img {
   border-radius: 0.25rem;
   width: 100%;
-  object-fit: cover;
   max-height: 400px;
-  background-color: rgb(202, 202, 202);
 }
 #work a {
   padding: 0px;

@@ -38,8 +38,12 @@ const WorkCard = (props) => {
   return (
     <div className="card">
       <div className="row">
-        <div className="col-4 image p-4 u-center">
-          <img src={image} alt="work-thumbnail" />
+        <div className="col-4 image u-center">
+          <img
+            src={image}
+            style={{ objectFit: "contain", backgroundColor: "transparent" }}
+            alt="work-thumbnail"
+          />
         </div>
         <div className="col-8 p-4">
           <h3>{title}</h3>
