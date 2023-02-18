@@ -1,9 +1,10 @@
 ---
 title: RelaxLane (HackUPC Barcelona submission)
 demo: https://devpost.com/software/relaxlane
-description: A mobile multiplayer game that tracks your heartbeat to determine the difficulty.
+description: A mobile multiplayer game that tracks your heartbeat to determine
+  the difficulty.
 date: 2019-10-10T09:31:03.834Z
-thumbnail: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/859/581/datas/gallery.jpg
+thumbnail: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/861/008/datas/gallery.jpg
 ---
 **Inspiration**
 
