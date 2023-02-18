@@ -3,7 +3,7 @@ title: FioNa Chat my Bank (HackTheBurgh 2020)
 demo: https://www.youtube.com/watch?v=xLjs5sES27E
 description: A chatbot, that brings financial advice closer to the inexperienced user.
 date: 2020-03-04T10:59:58.291Z
-thumbnail: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/950/191/datas/gallery.jpg
+thumbnail: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/950/191/datas/gallery.jpg
 ---
 #### Inspiration
 
