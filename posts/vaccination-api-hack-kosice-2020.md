@@ -1,9 +1,10 @@
 ---
 title: Vaccination API (Hack Kosice 2020)
 demo: https://www.youtube.com/watch?v=tlS9eef9g_w&t=47s
-description: An API to give descriptions and recommendations of vaccines based on different countries.
+description: An API to give descriptions and recommendations of vaccines based
+  on different countries.
 date: 2020-09-17T09:51:59.708Z
-thumbnail: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/208/985/datas/gallery.jpg
+thumbnail: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/208/985/datas/gallery.jpg
 ---
 #### Inspiration
 
