@@ -3,7 +3,7 @@ title: EventJam (Great Uni Hack 2018)
 demo: https://www.youtube.com/watch?v=STlfEASUOa0&t=2s
 description: An event platform in the 90's web theme.
 date: 2018-10-03T10:02:15.925Z
-thumbnail: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/720/646/datas/gallery.jpg
+thumbnail: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/720/646/datas/gallery.jpg
 ---
 
 
