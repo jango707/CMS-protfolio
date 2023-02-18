@@ -3,7 +3,7 @@ title: Samaritan (Hack Quarantine 2020)
 demo: https://devpost.com/software/samaritan-tf9m50
 description: A grocery shopping platform by the people, for the people.
 date: 2020-04-08T09:56:07.881Z
-thumbnail: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/029/208/datas/gallery.jpg
+thumbnail: https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/029/208/datas/gallery.jpg
 ---
 #### Inspiration
 
