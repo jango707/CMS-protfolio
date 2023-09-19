@@ -42,10 +42,6 @@ const Header = () => {
           </div>
           <div className="nav-item text-center">
             {" "}
-            <a href="/work">Work</a>{" "}
-          </div>
-          <div className="nav-item text-center">
-            {" "}
             <a href="/showcase">Showcase</a>{" "}
           </div>
           <div className="nav-item text-center">

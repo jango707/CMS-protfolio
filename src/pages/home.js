@@ -39,14 +39,6 @@ const Home = () => {
                           About Me
                         </button>
                         <button
-                          name="work"
-                          onClick={onButton}
-                          className=" btn-light capitalize"
-                          style={{ fontSize: "20px" }}
-                        >
-                          Work Experience
-                        </button>
-                        <button
                           name="showcase"
                           onClick={onButton}
                           className="btn-light capitalize"
