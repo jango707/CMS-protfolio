@@ -1,7 +1,7 @@
 ---
 title: Supergen Web-app
 tags: React Netlify-CMS Jest Cypress Docker
-thumbnail: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.yHwQRhk3cSW15Jh0zI-DtwHaC0%26pid%3DApi&f=1&ipt=81d9e543e1671a045ff78382a374730a96aa5eeae329e8aa1a2ff279d79076a8&ipo=images
+thumbnail: /images/1666803900040.jpg
 images:
   - /images/screenshot-2022-10-29-111526.jpeg
   - /images/screenshot-2022-10-29-111551.jpeg
