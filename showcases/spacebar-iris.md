@@ -1,6 +1,6 @@
 ---
 title: Spacebar - Iris
-tags: React Native
+tags: React-Native
 thumbnail: /images/icon.png
 images:
   - /images/screenshot_20230207_181513_expo_go.png
