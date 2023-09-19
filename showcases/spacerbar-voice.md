@@ -1,5 +1,5 @@
 ---
-title: Spacerbar Voice
+title: Spacebar Voice
 tags: React Firebase Amplitude
 thumbnail: /images/icon-ear.png
 images:
