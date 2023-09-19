@@ -10,14 +10,16 @@ const Work = () => {
     <Layout>
       <section id="work">
         <div id="content">
-          <h1 className=" m-6 u-center">My Work Experiences</h1>
-          {works.map((work, i) => {
-            return works.map((w) => {
-              if (w.id === i + 1) {
-                return <WorkCard key={i} work={w} />;
-              } else return "";
-            });
-          })}
+          <h1 className=" m-6 u-center"> </h1>
+          {works
+            .sort(
+              (a, b) =>
+                //based on id
+                parseInt(a.id) - parseInt(b.id)
+            )
+            .map((work, i) => (
+              <WorkCard key={i} work={work} />
+            ))}
         </div>
       </section>
     </Layout>
@@ -27,6 +29,7 @@ const Work = () => {
 export default Work;
 
 const WorkCard = (props) => {
+  console.log(props);
   const title = props.work.title;
   const company = props.work.company;
   const companyLink = props.work.companyLink;
