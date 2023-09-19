@@ -26,7 +26,6 @@ const DemoContent = (props) => {
       <Markdown id="content" source={content} escapeHtml={false} />
       <GalleryComponent images={images} />
       <br />
-      <a href="showcase">Back to top ⇡</a>
     </div>
   );
 };

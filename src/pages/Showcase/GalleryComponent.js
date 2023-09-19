@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
-import { Gallery } from "react-grid-gallery";
 import "react-image-lightbox/style.css";
-import "./Gallery.css";
 
-const GalleryComponent = ({ images: imagesRaw }) => {
-  const images = imagesRaw.map((image, i) => {
-    return { src: image, title: `Demo Showacse - ${++i}` };
-  });
-
+const GalleryComponent = ({ images }) => {
   const [index, setIndex] = useState(-1);
 
   const currentImage = images[index];
@@ -24,25 +18,46 @@ const GalleryComponent = ({ images: imagesRaw }) => {
 
   return (
     <div>
-      <Gallery
-        images={images}
-        enableImageSelection={false}
-        onClick={handleClick}
-        margin={10}
-      />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 20,
+          flexWrap: "wrap",
+          backgroundColor: "#00000018",
+          borderRadius: 5,
+          padding: 20,
+        }}
+      >
+        {images.map((image, i) => (
+          <img
+            onClick={() => handleClick(i)}
+            style={{
+              maxWidth: 300,
+              maxHeight: 300,
+              objectFit: "contain",
+              borderRadius: 5,
+              cursor: "pointer",
+            }}
+            key={i}
+            src={image}
+            alt={"showcase example"}
+          />
+        ))}
+      </div>
 
       {!!currentImage && (
         <Lightbox
           onImageLoad={() => {
             window.dispatchEvent(new Event("resize"));
           }}
-          mainSrc={currentImage.src}
-          imageTitle={currentImage.title}
-          mainSrcThumbnail={currentImage.src}
-          nextSrc={nextImage.src}
-          nextSrcThumbnail={nextImage.src}
-          prevSrc={prevImage.src}
-          prevSrcThumbnail={prevImage.src}
+          mainSrc={currentImage}
+          imageTitle={"Showcase Example " + index}
+          mainSrcThumbnail={currentImage}
+          nextSrc={nextImage}
+          nextSrcThumbnail={nextImage}
+          prevSrc={prevImage}
+          prevSrcThumbnail={prevImage}
           onCloseRequest={handleClose}
           onMovePrevRequest={handleMovePrev}
           onMoveNextRequest={handleMoveNext}
