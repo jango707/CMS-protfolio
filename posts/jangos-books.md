@@ -1,7 +1,7 @@
 ---
 title: Jango's Books
 demo: https://books.jang.software/
-description: " A personal book keeping app."
+description: A personal book keeping app.
 date: 2024-07-30T11:34:02.064Z
 thumbnail: /images/1000039612.png
 ---
